@@ -14,23 +14,23 @@ Caso a pessoa escolha uma opção que não existe na tabela acima, retorne:
 Utilize Switch/Case para resolver este problema.
 */
 
-    switch (6) {
-        case 1:
-        console.log("Trybe Lanche Feliz");         
-break;
-        case 2:
-        console.log("McTrybe");         
-break;
-        case 3:
-        console.log("TrybeWooper");         
-break;
-        case 4:
-        console.log("X-Trybe");         
-break; 
-        case 5:
-        console.log("X-Trybe");         
-break;                       
-    default:
-        console.log("Item inexistente");
-break;
-    }
+//     switch (6) {
+//         case 1:
+//         console.log("Trybe Lanche Feliz");         
+// break;
+//         case 2:
+//         console.log("McTrybe");         
+// break;
+//         case 3:
+//         console.log("TrybeWooper");         
+// break;
+//         case 4:
+//         console.log("X-Trybe");         
+// break; 
+//         case 5:
+//         console.log("X-Trybe");         
+// break;                       
+//     default:
+//         console.log("Item inexistente");
+// break;
+//     }
