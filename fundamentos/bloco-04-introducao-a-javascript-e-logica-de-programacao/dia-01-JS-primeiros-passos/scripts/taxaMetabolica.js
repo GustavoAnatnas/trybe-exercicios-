@@ -16,9 +16,15 @@ O retorno deve ser no seguinte formato:
 ---------------------------------------
 */
 
+let age = 20;
+let sex = "M";
+let weight = 80;
+let height = 185;
+let taxa; 
+if (sex == "M") {
+  taxa = (height * 6.25) + (weight * 9.99) - (age * 4.92) + 5;
+} else if(sex == "F") {
+  taxa = (height * 6.25) + (weight * 9.99) - (age * 4.92) - 161;
 
-function basalMetabolicRate(age, sex, weight, height){
-    // Desenvolva seu código nessa função
   }
-  
-  module.exports = basalMetabolicRate;
+  console.log(taxa)
